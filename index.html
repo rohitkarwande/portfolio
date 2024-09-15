@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rohit Karwande - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- GSAP for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <!-- Background Animation -->
+  <div class="background-animation"></div>
+  
+  <!-- Animated Background Patterns -->
+  <div class="background-patterns">
+    <div class="pattern pattern-1"></div>
+    <div class="pattern pattern-2"></div>
+    <div class="pattern pattern-3"></div>
+    <div class="pattern pattern-4"></div>
+    <div class="pattern pattern-5"></div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator"></div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Header Section -->
+    <header>
+      <div class="container header-content">
+        <div class="profile">
+          <div class="profile-pic">
+            <img src="profile.jpg" alt="Rohit Karwande">
+          </div>
+        </div>
+        <div class="about-me">
+          <h1>Rohit Karwande</h1>
+          <p class="tagline">Turning caffeine into code and bugs into features!</p>
+          <p class="description">MERN stack magician in training at Mumbai University, turning coffee and code into cool projects. If it's broken, I'll fix it—or at least blame JavaScript!</p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="tile">
+          <div class="skills-container">
+            <div class="skill-card">
+              <img src="react.jpg" alt="React.js Logo" class="skill-logo">
+              <h3>React.js</h3>
+              <p>Building dynamic and responsive user interfaces with React's component-based architecture.</p>
+            </div>
+            <div class="skill-card">
+              <img src="flutter.jpg" alt="Flutter Logo" class="skill-logo">
+              <h3>Flutter</h3>
+              <p>Developing cross-platform mobile applications with Flutter's expressive UI framework.</p>
+            </div>
+            <div class="skill-card">
+              <img src="mongodb.jpg" alt="MongoDB Logo" class="skill-logo">
+              <h3>MongoDB</h3>
+              <p>Managing and querying NoSQL databases for scalable and flexible data storage solutions.</p>
+            </div>
+            <div class="skill-card">
+              <img src="node.jpg" alt="Node.js Logo" class="skill-logo">
+              <h3>Node.js</h3>
+              <p>Building server-side applications and APIs with JavaScript's runtime environment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="tile">
+          <div class="project-card">
+            <img src="myntra.jpg" alt="Myntra Clone">
+            <h3>Myntra Clone</h3>
+            <p>A clone of the Myntra e-commerce website, replicating its core functionalities and design.</p>
+            <a href="https://github.com/vikasdev8/MyntraClone" target="_blank" class="btn">View Project</a>
+          </div>
+          <div class="project-card">
+            <img src="spotify.jpg" alt="Spotify Clone">
+            <h3>Spotify Clone</h3>
+            <p>A CSS clone of the Spotify web player, replicating the UI design.</p>
+            <a href="https://github.com/ironhack-labs/lab-css-spotify-clone" target="_blank" class="btn">View Project</a>
+          </div>
+          <div class="project-card">
+            <img src="food-delivery.jpg" alt="Food Delivery Clone">
+            <h3>Food Delivery Clone</h3>
+            <p>A clone of a food delivery website, featuring restaurant listings and ordering options.</p>
+            <a href="https://github.com/Ahmad528/shoppingsite" target="_blank" class="btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="tile">
+          <div class="section-content">
+            <img src="experience.jpg" alt="Experience">
+            <p>2 years of experience in web development, specializing in building responsive and dynamic websites with modern frameworks like MERN and Flutter.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="tile">
+          <div class="section-content">
+            <img src="education.jpg" alt="Education">
+            <p>Currently pursuing a degree in Computer Engineering at Mumbai University.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="tile">
+          <div class="social-links">
+            <a href="https://www.instagram.com/rohit_.0805/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/rohitkarwande" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rohit-karwande-880676265/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Rohit Karwande. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+ 
+  <script src="animations.js"></script>
+</body>
+</html>
